@@ -1,0 +1,136 @@
+
+nav{
+
+    display: flex;
+    justify-content:end;
+    padding-right: 30px;
+    
+
+    
+}
+
+h4{
+    
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+    padding-right:20px;
+    padding-top: 40px;
+    
+}
+.link1 :hover {
+    background-color: rgb(228, 228, 127);
+}
+.link2 :hover {
+    background-color: rgb(228, 228, 127);}
+    
+.link1{
+    color:rgb(80, 212, 190);
+    font-size: 20px;
+}
+.link2{
+    color:rgb(80, 212, 190);
+    font-size: 20px;
+    
+   
+  
+}
+.link3{
+    color:rgb(80, 212, 190);
+    font-size: 20px;
+    
+   
+  
+}
+.links{
+    list-style: none;
+    display:flex;
+    justify-items: start;
+    gap: 40px;
+    width: 1550px;
+    padding-top: 45px;
+}
+.body-style{
+    background:url(/image/47.jpg)  no-repeat;    
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    
+
+
+footer{
+    
+    margin-top: 800px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(52, 146, 141);
+    
+}
+
+.goals{
+    
+   
+    display: flex;
+    justify-content:space-evenly;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.goal1{
+    
+    border-radius: 112px;
+    background-color: antiquewhite;
+    width: 200px;
+padding-top: 20px;
+}
+.goal2{
+    
+    border-radius: 112px;
+    background-color: antiquewhite;
+    width: 200px;
+padding-top: 20px;
+}
+.goal3{
+    
+    border-radius: 112px;
+    background-color: antiquewhite;
+    width: 200px;
+padding-top: 20px;
+}
+.conts{
+    border-radius: 10px;
+    width: 500;
+    height: 900px;
+    margin-top: 100px;
+margin-left: 200px;
+    background-color: antiquewhite;
+    display: flex;
+justify-content:space-evenly;
+padding-left: 50px;
+padding-right: 50px;}
+
+.cont1{
+width: 100px;
+height: 50px;
+background-color: darkslategray;
+
+}
+
+.cont2{
+
+}
+.goal2:hover {
+    transform: scale(1.1);
+}
+
+.goal1:hover:hover {
+    transform: scale(1.1);
+}
+.goal3:hover{
+    transform: scale(1.1);}
+
+    @media screen and (max-width: 600px) {
+links { padding-left: 120px;}
+    }
