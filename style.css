@@ -55,6 +55,7 @@ h4{
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        align-content: center;
       }
     
 
@@ -96,6 +97,7 @@ padding-top: 20px;}
 .cards{
     display: flex;
     justify-content: center;
+    
 }
 
 .card{
@@ -141,16 +143,18 @@ margin-left: 250px;}
 
 .goal3:hover{
     transform: scale(1.1);}
-
-    .i-card{
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        border-radius: 15px;
-        width: 1000px;
-        height:350px;
-        margin: 10%;
-        margin-left: 50%;}
-    
+    .idea-cards{
+        column-gap: 50px;
+        justify-content: center;
+    }
+        .i-card{
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            border-radius: 15px;
+            width: 1000px;
+            height:350px;
+            margin: 10%;
+            margin-left: 50%;}
     .i-card-body{
         margin:auto;}
     
@@ -176,7 +180,7 @@ margin-left: 250px;}
     .rating{
         color: rgb(255, 255, 255);
         display : flex;
-
+        align-content: center;
         padding-right: 600px;
       }
       
@@ -191,6 +195,7 @@ margin-left: 250px;}
         padding    : 48px 0 0;
         overflow   : hidden;
         background : url(/image/stars.svg) no-repeat top left;
+        align-items: flex-end;
 
       }
 
@@ -210,6 +215,9 @@ margin-left: 250px;}
         font-size: 30px;
         margin-inline-start: 1800px;
         margin-top: 20px;
+    }
+    .add-idea-button{
+       margin-bottom: 100px;
     }
 
     @media screen and (max-width: 700px) {
